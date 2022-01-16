@@ -1,19 +1,19 @@
 var App = {
     Data: {
-        PORTFOLIO_ID: null,
+        PORTFOLIO_ID: null, // leave it null, all you need to do is to configure the App.Data.COINS
         COINS: {
            /*
             "tick_symbol": {
                 "name": "Coin/Token Name from Coin Gecko",
-                "transactions": {data from CMC}
+                "transactions": {data copied from CMC}
             },
             "ada": {
                 "name": "Cardano",
-                "transactions": {data from CMC}
+                "transactions": {data copied from CMC}
             },
             "btc": {
                 "name": "Bitcoin",
-                "transactions": {data from CMC}
+                "transactions": {data copied from CMC}
             },
             ...
           */
